@@ -546,14 +546,6 @@ windows_shortcut "#{all_users_desktop}/Notepad.lnk" do
 end
 ```
 
-#### Library Methods
-
-```ruby
-Registry.value_exists?('HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run','BGINFO')
-Registry.key_exists?('HKLM\SOFTWARE\Microsoft')
-BgInfo = Registry.get_value('HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run','BGINFO')
-```
-
 ### windows_path
 
 #### Actions
